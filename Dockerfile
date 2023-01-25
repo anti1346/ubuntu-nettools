@@ -13,7 +13,7 @@ USER root
 RUN sed -i 's/archive.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list \
     && apt-get update \
     && apt-get install -y \
-        arping telnet inetutils-ping \
+        arping telnet inetutils-ping netcat \
         net-tools traceroute dnsutils \
         ethtool tcpdump ipcalc \
         curl wget vim \
