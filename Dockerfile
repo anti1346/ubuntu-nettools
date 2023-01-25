@@ -17,7 +17,7 @@ RUN sed -i 's/archive.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list \
         net-tools traceroute dnsutils \
         ethtool tcpdump ipcalc \
         curl wget vim \
-        sudo git make \
+#         sudo git make \
     && apt-get clean autoclean \
     && apt-get autoremove --yes \
     && rm -rf /var/lib/apt/lists /var/lib/dpkg/info /tmp/* /var/tmp/*
