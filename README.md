@@ -18,5 +18,8 @@ docker push anti1346/ubuntu-nettools:latest
 ```
 ##### docker run test
 ```
+docker run -it --rm --name nettools -h nettools anti1346/ubuntu-nettools:latest
+```
+```
 docker run -it --rm --net=host --cap-add net_admin --name nettools anti1346/ubuntu-nettools:latest
 ```
