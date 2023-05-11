@@ -6,7 +6,7 @@ docker build --tag anti1346/ubuntu-nettools:latest --no-cache .
 ```
 ##### docker build arg
 ```
-docker build --tag anti1346/ubuntu-nettools:latest --build-arg OS_USER1=vagrant --build-arg OS_USER1_PASSWD=vagrant --no-cache .
+docker build --tag anti1346/ubuntu-nettools:latest --build-arg SSH_USER=vagrant --build-arg SSH_PASSWORD=vagrant --no-cache .
 ```
 ##### docker tag(도커 이미지 태그 이름 변경)
 ```
