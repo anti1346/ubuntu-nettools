@@ -16,7 +16,7 @@ USER root
 RUN sed -i 's/archive.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list \
     && apt-get update -qq \
     && apt-get install -qq -y \
-        arping telnet inetutils-ping netcat apt-utils \
+        arping telnet inetutils-ping netcat apt-utils sudo \
         net-tools traceroute dnsutils \
         ethtool tcpdump ipcalc \
         curl wget vim \
